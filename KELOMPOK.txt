@@ -1,0 +1,29 @@
+#Daftar Kelompok
+- Firnadi Rio		: L200130108
+- Ferry Herwanto	: L200130083
+- Qurrotha Thegar 	: L200130XXX
+
+#Nama Aplikasi 		: PEWD MUSIC ENGINE
+
+#Deskripsi		: Merupakan Musik player berbasis online yang setiap orang dapat mengunggah dan mengelola semua musiknya.
+
+#Daftar form		
+- Form Register		: Untuk Mendaftar sebagai member baru
+- Form Sign in		: untuk login ke system
+- Form Settings		: Untuk Pengaturan website
+- Form Dashboard	: Untuk Pengisian data dalam pengunggahan lagu
+- Form edit Musik	: Untuk Mengubah informasi musik
+
+#Fitur
+- Daftar
+- Login [session, cookie]
+- Auto Login
+- Upload Musik
+- Delete Musik
+- Edit Musik
+- Admin delete,edit, delete semua musik termasuk milik user
+- pagination
+- Pencarian Musik
+- Sort Musik berdasarkan uploader, artist
+- Mainkan Musik dan Brosing [ AJAX ]
+

@@ -1,0 +1,22 @@
+
+
+RewriteEngine On
+RewriteRule ^search/(.*)/?$ search.php?s=$1
+RewriteRule ^artist/(.*)/?$ artist.php?s=$1
+RewriteRule ^update/(.*)/?$ update.php?id=$1
+RewriteRule ^author/(.*)/?$ author.php?id=$1
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+ErrorDocument 404 http://localhost/kuliah/msc/404
+
+
+
+<FilesMatch ".(php)$">
+php_value auto_append_file none
+</FilesMatch>
+<FilesMatch ".(htm)$">
+php_value auto_append_file none
+</FilesMatch>
+<FilesMatch ".(html)$">
+php_value auto_append_file none
+</FilesMatch>
