@@ -17,5 +17,5 @@ feature :
 - clean code
 
 
-@ FERRY HERWANTO
-@ l200130083@gmail.com
+# FERRY HERWANTO
+# l200130083@gmail.com
