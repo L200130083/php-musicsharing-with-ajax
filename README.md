@@ -15,3 +15,7 @@ feature :
 - costum 404 page not found
 - built with ajax and bootstrap
 - clean code
+
+
+@ FERRY HERWANTO
+@ l200130083@gmail.com
